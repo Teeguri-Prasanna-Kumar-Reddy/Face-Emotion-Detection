@@ -1,0 +1,33 @@
+body {
+    background-image: url("Emotions.jpg");
+    background-repeat : no-repeat;
+    background-size : 100%;
+}
+
+.button {
+  background:rgb(73, 112, 230);
+  border: none;
+  border-radius: 12px;
+  padding:0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.button:active .front {
+  transform: translateY(-2px);
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: rgb(73, 112, 196);
+  color: white;
+  transform: translateY(-6px);
+}
+h1 {
+    text-align: center;
+    font-family: serif; 
+}
+h3 {
+    text-align: center
+}
